@@ -1,0 +1,217 @@
+:root{
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-text-color: #434455;
+
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--primary-text-color);
+   
+}
+button {
+    cursor: pointer;
+}
+/* ==================== COMPONENTS ==================== */
+/* ==================== /COMPONENTS ==================== */
+
+/* ==================== HEADER ==================== */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-text {
+    color: #4D5AE5;
+}
+
+header .logo-text-secondary {
+    color: #2E2F42;
+}
+
+/* .header-nav {
+}
+.header-lists {
+}
+.header-item {
+} */
+
+.header-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+/* .header-contacts {
+}
+.header-contact-list {
+} */
+.header-mail,
+.header-phone {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-phone:hover,
+.header-phone:focus {
+    color: #4D5AE5;
+}
+/* ==================== /HEADER ==================== */
+
+/* ==================== MAIN ==================== */
+.hero-title {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background: #2E2F42;
+}
+
+.hero-btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+}
+
+/* .about {
+}
+.about-lists {
+}
+.about-item {
+} */
+.about-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.doing {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+/* .doing-lists {
+}
+.doing-item {
+} */
+.team {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+/* .team-lists {
+}
+.team-item {
+} */
+.team-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.team-prof {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* ==================== /MAIN ==================== */
+
+/* ==================== FOOTER ==================== */
+footer {
+    background: #2E2F42;
+}
+
+footer .logo-text-secondary {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+/* ==================== /FOOTER ==================== */
+
+/* PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO */
+/* ==================== MAIN ==================== */
+
+/* .main-portfolio-title {
+}
+.portfolio-list {
+}
+.portfolio-item{
+} */
+.portfolio-btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: #FFFFFF;
+    background: #4D5AE5;
+}
+/* .portfolio-projects {
+} */
+.portfolio-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.portfolio-description {
+    font-size: 16px;
+    line-height: 1.5;   
+    letter-spacing: 0.02em; 
+    color: #434455;   
+}
+/* ==================== /MAIN ==================== */
+
+/* PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO */
